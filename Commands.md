@@ -5,7 +5,7 @@
 
 |Commands|Description|Example|
 |--------|-----------|-------|
-|`ps`|Show processes|go```ps```|
+|`ps`|Show processes|Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul>|
 |`top`|Show processes|`top`|
 |`htop`|Show processes|`htop`|
 |`pstree`|Show processes|`pstree`|
