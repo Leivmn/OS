@@ -2,12 +2,44 @@
 # Linux Commands
 ![Commands](https://i.imgur.com/kAVz68W.jpg)
 
-|Commands|Description|Example|
+##Disclaimer
+```go
+[options] = optional
+[parameter] requiered
+```
+
+|Commands|Description|Syntax|
 |--------|-----------|-------|
-|`ps`|Show processes|<font color="red">This text is red!</font>|
-|`top`|Show processes|`top`|
-|`htop`|Show processes|`htop`|
-|`pstree`|Show processes|`pstree`|
+|`man`|Shows the manual of a command|`man [command]`|
+|`ps`|Show processes|`ps [modifies] [conditions]`|
+|`top`|Dynamic real-time proccesses view|`top [options]`|
+|`htop`|Show processes|`htop [options]`|
+|`pstree`|Show processes|`pstree [options] [pid or username]`|
+|`sudo`|Execute as super user|`sudo [options]`|
+|`whoiam`|Return username of actual user|`whoiam [options]`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+|`A`|B|`C`|
+
 
 
 |Commands|Description|Example|
