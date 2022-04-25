@@ -62,6 +62,7 @@
 
 ##Docker commands
 ```javascript
+docker pull    #Download a Docker image
 docker build   #Build an image from a Dockerfile
 docker images  #List all images on a Docker host
 docker run     #Run an image
@@ -70,6 +71,4 @@ docker stop    #Stop a running instance
 docker rm      #Remove an instance
 docker rmi     #Remove an image
 ```
-
-
 
