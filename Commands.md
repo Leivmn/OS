@@ -1,3 +1,4 @@
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 # Linux/Bash Commands
 ## Commands worthy of remembering.
 
