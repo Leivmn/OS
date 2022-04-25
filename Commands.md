@@ -1,7 +1,7 @@
 # Linux/Bash Commands
 ## Commands worthy of remembering.
 
-|Commands|Description|Example|
+|<span style="color:blue">*Commands*</span>.|Description|Example|
 |--------|-----------|-------|
 |`clear`|Cleans the current terminal state|`clear`|
 |`cd`|Changes the current directory|`cd` home/user/Desktop|
