@@ -1,5 +1,6 @@
-<span style="color: red;">text</span>
-# Linux/Bash Commands
+
+# Linux Commands
+https://imgur.com/kAVz68W
 ## Commands worthy of remembering.
 
 |<span style="color:blue">*Commands*</span>|Description|Example|
