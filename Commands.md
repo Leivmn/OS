@@ -1,11 +1,18 @@
 
 # Linux Commands
 ![Commands](https://i.imgur.com/kAVz68W.jpg)
-## Commands worthy of remembering.
+## Processes.
 
-|<span style="color:blue">*Commands*</span>|Description|Example|
+|Commands|Description|Example|
 |--------|-----------|-------|
-|`clear`|Cleans the current terminal state|`clear`|
+|`ps`|Show processes|`bash``ps```|
+|`top`|Show processes|`top`|
+|`htop`|Show processes|`htop`|
+|`pstree`|Show processes|`pstree`|
+
+
+|Commands|Description|Example|
+|--------|-----------|-------|
 |`cd`|Changes the current directory|`cd` home/user/Desktop|
 |`man`|Shows the manual for the specified command|`man` mkdir|
 |`whoami`|Prints the current user| `whoami`|
