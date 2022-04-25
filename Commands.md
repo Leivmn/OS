@@ -7,7 +7,7 @@
 [] = optional
 {} = requiered
 ```
-*The most of the time you can write a command with --help or -h, and it will display all the available options*
+*The most of the time you can write a command with --help or -h, and it will display all the available options.*
 
 
 |Commands|Description|Syntax|
