@@ -1,6 +1,6 @@
 
 # Linux Commands
-https://imgur.com/kAVz68W
+![Commands](https://imgur.com/kAVz68W)
 ## Commands worthy of remembering.
 
 |<span style="color:blue">*Commands*</span>|Description|Example|
