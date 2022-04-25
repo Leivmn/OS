@@ -1,7 +1,6 @@
 
 # Linux Commands
 ![Commands](https://i.imgur.com/kAVz68W.jpg)
-## Processes.
 
 |Commands|Description|Example|
 |--------|-----------|-------|
