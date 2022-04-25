@@ -5,9 +5,7 @@
 
 |Commands|Description|Example|
 |--------|-----------|-------|
-|`ps`|Show processes|```bash
-ps
-```|
+|`ps`|Show processes|```bash ps ```|
 |`top`|Show processes|`top`|
 |`htop`|Show processes|`htop`|
 |`pstree`|Show processes|`pstree`|
