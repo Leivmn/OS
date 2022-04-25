@@ -60,7 +60,7 @@
 |`chsh`|Change bash|`chsh [option] {parameter}`|
 |`bash`|Execute a bash|`bash [option] {bash-file}`|
 
-##Docker commands
+## Docker commands
 ```javascript
 docker pull    #Download a Docker image
 docker build   #Build an image from a Dockerfile
