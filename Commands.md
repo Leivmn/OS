@@ -3,69 +3,73 @@
 ![Commands](https://i.imgur.com/kAVz68W.jpg)
 
 ##Disclaimer
-```go
-[options] = optional
-[parameter] requiered
+```javascript
+[] = optional
+{} = requiered
 ```
 
 |Commands|Description|Syntax|
 |--------|-----------|-------|
 |`man`|Shows the manual of a command|`man [command]`|
-|`ps`|Show processes|`ps [modifies] [conditions]`|
+|`ps`|Show processes|`ps [options] [conditions]`|
 |`top`|Dynamic real-time proccesses view|`top [options]`|
 |`htop`|Show processes|`htop [options]`|
 |`pstree`|Show processes|`pstree [options] [pid or username]`|
-|`sudo`|Execute as super user|`sudo [options]`|
+|`sudo`|Execute as super user|`sudo {parameter}`|
+|`su`|Execute as super user|`su [option] [-] [user]`|
 |`whoiam`|Return username of actual user|`whoiam [options]`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
-|`A`|B|`C`|
+|`more`|View files in the command prompt|`more [option] {file}`|
+|`tail`|Print the last 10 lines of each file specified|`tail {parameter} {file}s`|
+|`head`|Print the first 10 lines of each file specified|`head {parameter} {file}s`|
+|`cp`|Copy files from a source to a destination|`cp [option] {source} {destination}`|
+|`alias`|Shortcut that reference a command|`alias [option] {name}='{value}'`|
+|`mv`|Move files from a source to a destination|`mv [option] {source} {destination}`|
+|`rm`|Delete a specified file or files|`rm [option] {file}`|
+|`rmdir`|Delete a specified directory or directories|`rmdir [options] {directory}`|
+|`useradd`|Create a new user|`useradd [option] {username}`|
+|`passwd`|Change the password of a user|`passwd [option] {username}`|
+|`less`|The opossite of more|`less [option] {file}`|
+|`history`|Prints a list of commands used in the terminal|`history [option]`|
+|`apt`|Command line interface|`apt {parameter} {package}`|
+|`ls`|List information about the files and directories|`ls [option] [file/directory]`|
+|`mkdir`|Create a directory|`mkdir [option] {drectory}`|
+|`ip`|Display network information|`ip [option] {parameter}`|
+|`du`|Size of a file|`du [options] {file}`|
+|`stat`|Show creation date and last access|`stat [option] {file}`|
+|`chown`|Change file or directory owner|`chown [option] {owner}:[group] {file/directory}`|
+|`chmod`|Change file o directory permissions|`chmod {parameter} {owner}:[group] {file/directory}`|
+|`df`|Report file system disk space usage|`df [option] [file]`|
+|`mount`|Mount devices on file system|`Mount [option] [type] {device} {dir}`|
+|`gparted`|Gnome Partition Editor|`{device}`|
+|`kill`|Kill a process|`kill [option] {pid}`|
+|`pwd`|Shows actual directory|`pwd [options]`|
+|`echo`|Print text|`echo [option] {text}`|
+|`cat`|Prints the content of a file|`cat [option] {file}`|
+|`cd`|Helps to move between directorys|`cd [options] {directory}`|
+|`wget`|Download files from the internet|`wget [option] {URL}`|
+|`pacman`|Packange manager of Arch-Linux Distros|`pacman {parameter} {package}s`|
+|`touch`|Create a new file|`touch [option] {filename}`|
+|`tree`|List contents of directories in a tree-like format|`tree [option] [directory]`|
+|`grep`|Print lines that match the parameter|`grep [option] {parameter}s`|
+|`nano`|Terminal text editor|`nano [option] {filename}`|
+|`vim`|Another text editor|`vim [option] {filename}`|
+|`crontab`|Open the crontab file|`crontab {parameter} [user] [file]`|
+|`ln`|Create a hard link|`ln [option] {target} {directory}`|
+|`ln`|Create a hard link|`ln -s {target} {directory}`|
+|`mdadm`|Raid creator tool|`mdad [mode] <raiddevice> [options] <component-devices>`|
+|`chsh`|Change bash|`chsh [option] {parameter}`|
+|`bash`|Execute a bash|`bash [option] {bash-file}`|
+
+##Docker commands
+```go
+docker build  #Build an image from a Dockerfile
+docker images #List all images on a Docker host
+docker run  #Run an image
+docker ps  #List all runing and stopped instances
+docker stop  #Stop a running instance
+docker rm  #Remove an instance
+docker rmi  #Remove an image
+```
 
 
 
-|Commands|Description|Example|
-|--------|-----------|-------|
-|`cd`|Changes the current directory|`cd` home/user/Desktop|
-|`man`|Shows the manual for the specified command|`man` mkdir|
-|`whoami`|Prints the current user| `whoami`|
-|`sudo`|Allows us to run a command as root|`sudo` apt install cmatrix|
-|`cp`| Copies the specified file to a new one| `cp` file.txt file_copy.txt|
-|`wget`|Utility for downloading files from the web|`wget` -q https://packages.microsoft.com/keys/microsoft.asc|
-|`pacman`|Package manager for Arch-based distributions| `sudo pacman -Syuu`|
-|`useradd`|Creates a new user including a personal home dir| `sudo useradd -m newUser -G wheel -p 123456`|
-|`touch`|Creates a new file| `touch file.txt`|
-|`mkdir`|Creates a new directory| `mkdir newDir`|
-|`rmdir`|Deletes the specified directory| `rmdir -rf newDir`|
-|`tree`|displays a tree shaped list of the current directory and subdirectories| `tree`|
-|`ls`|Lists the file in the specified route| `ls -l /bin/`|
-|`cat`|Prints the content of a given file| `cat file.txt`|
-|`mv`|Moves a given file to the specified route, can also be used to rename| `mv file.txt /bin/`|
-|`grep`|Useful for searching inside files| `grep -rin "log" /home/*`|
-|`ps`|Prints the current processes| `ps -A`|
-|`chmod`|Changes the permissions for the given file or directory| `chmod 777 file.txt`|
-|`su`|If a user is given, switches to it, if not, it switches to the root user| `su - newUser`|
-|`pkill`|Kills the given process| `sudo pkill colord`|
-|`history`|Prints all commands used until now on the terminal| `history`|
-|`ln`|Creates a hard link with the given name to the given file. (if -s is used, creates a soft link)| `ln -s /var/log/pacman.log ~/pacman.log`|
-|`crontab`|Allows to configure the crontab Daemon| `crontab -e`|
-|`nano`|Text editor on the terminal| `nano file.txt`|
-|`vim`|Text editor on the terminal| `vim file.txt`|
