@@ -1,4 +1,4 @@
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
+<span style="color: red;">text</span>
 # Linux/Bash Commands
 ## Commands worthy of remembering.
 
