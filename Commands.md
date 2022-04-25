@@ -2,7 +2,7 @@
 # Linux Commands
 ![Commands](https://i.imgur.com/kAVz68W.jpg)
 
-##Disclaimer
+## Disclaimer
 ```javascript
 [] = optional
 {} = requiered
@@ -72,3 +72,4 @@ docker rm      #Remove an instance
 docker rmi     #Remove an image
 ```
 
+![Commands](https://www.omgubuntu.co.uk/wp-content/uploads/2016/10/GOUKlfP.jpg)
